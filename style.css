@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+} 
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./brooke-cagle-LCcFI_26diA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+} 
+
+.logo {
+    color: white;
+    font-size: 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+/* for PORTFOLIO font */
+#portfolio {
+    color: rgb(130, 227, 138);
+}
+
+/* for browsing menu */
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;   
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: rgb(130, 227, 138);
+    transition: .5s;
+}  
+
+/* ================================================= */
+
+.content {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    transform: translateY(-50);
+}
+
+/* ========================================== */
+.greeting {
+    color: white;
+    font-size: 60px;
+    margin: 10px 0px 10px 0px;
+}
+
+.name {
+    color: rgb(130, 227, 138);
+    font-size: 70px;
+    margin: 10px 0px 10px 0px;
+}
+
+.post {
+    color: white;
+    font-size: 30px;
+    margin: 10px 0px 30px 0px;
+}
+
+/* ============================================ */
+
+.lets-connect form {
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+
+.lets-connect form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 80px 14px 15px ;
+    border: 3px solid rgb(130, 227, 138); 
+    outline: none;
+    border-radius: 20px; 
+}
+
+.lets-connect form input:last-child {
+    display: inline-block;
+    position: absolute;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgb(130, 227, 138);
+    top: 6px;
+    right: 6px;
+}
+
+.lets-connect form input:last-child:hover {
+    color: white;
+    justify-content: space-between;
+}
+
+/* ============================================================== */
+
+#about-us {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    border: 2px solid wheat;
+    background-color: rgb(11, 15, 10);
+}
+
+#about-us img {
+    width: 300px;
+    padding-top: 110px;
+}
+
+.about-text {
+    width: 300px;
+}
+
+.main-body {
+    /* width: 700px; */
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text h3 {
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.about-text h5 {
+    color: rgb(130, 227, 138);
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-transform: Capitalize;
+
+}
+
+.about-text p {
+    color: rgb(196, 238, 199);
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.about-text input {
+    background-color: rgb(130, 227, 138);
+    padding: 13px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.about-text input:hover {
+    color: rgb(130, 227, 138);
+    background-color: transparent;
+    border: 2px solid rgb(130, 227, 138);
+    cursor: pointer;
+}
+
+
+/* ================================================== */
+
+#service {
+    background-color: rgb(14, 19, 12);
+    width: 100%;
+    height: 100vh;
+}
+
+.title h3{
+    color: white;
+    font-size: 50px;
+    width: 1130px;
+    text-align: center;
+    margin: auto auto;
+    padding-top: 30px;   
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
+
+.card {
+    height: 500px;
+    width: 380px;
+    padding: 20px 35px;
+    background-color: rgb(20, 25, 21);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(130, 227, 138);
+}
+
+.card h5 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.desc {
+    color: rgb(196, 238, 199);
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.desc .button {
+    background-color: rgb(130, 227, 138);
+    padding: 13px 25px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+} 
+
+.desc .button:hover {
+    color: rgb(130, 227, 138);
+    background-color: transparent;
+    border: 2px solid rgb(130, 227, 138);
+    cursor: pointer;
+}
+
+
+
+/* ============================================= */
+
+.contact {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./andrew-neel-A9Msi-vUNKg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contact p {
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.contact span {
+    color: rgb(79, 223, 91);
+}
+
+.contact button {
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    padding: 13px 25px;
+    margin-top: 40px;
+    margin-left: 45%;
+    border-radius: 20px;
+    text-decoration: none;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    color: white;
+    background-color: rgb(79, 223, 91);
+}
+
+.contact .footer {
+    margin-right: 50%;
+    padding-top: 500px;
+    padding-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.social-media {
+    display: inline-block;
+}
+
+.social-media a {
+    margin-right: 50%;
+    padding-top: 500px;
+    padding-left: 20px;
+    font-size: 17px; 
+}
+
+.thank-you {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./rock-staar-NzIV4vOBA7s-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.thank-you p {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    padding-top: 70px;
+}
+
+.thank-you span {
+    color: rgb(79, 223, 91);
+}
